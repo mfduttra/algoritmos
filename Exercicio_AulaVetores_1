@@ -1,0 +1,20 @@
+programa
+{
+	funcao inicio()
+	{
+		real umVetor[10], media = 0.0
+
+		para (inteiro i=0; i<10; i++) {
+			escreva ("Escreva a ",i+1,"a nota: ")
+			leia (umVetor[i])
+
+		}
+		
+		para (inteiro i=0; i<10; i++) {
+			media = media + umVetor[i] //incrementando a media com cada posição do vetor de indice i
+			
+		}
+
+		escreva ("a media dos alunos é: ",media/10)
+	}
+}
